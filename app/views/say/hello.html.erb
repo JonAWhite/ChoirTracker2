@@ -14,5 +14,12 @@
     <p>
       Don't forget Playtime on page 61!
     </p>
+    <h2>Playtime</h2>
+    <ul>
+      <li>Looping in ERB </li>
+      <% 10.downto(1) do |count| %>
+      <%= 3 * count %>...<br />
+      <% end -%>
+      <li><%= link_to "File Listing", :action => "files" %></li>
   </body>
 </html>

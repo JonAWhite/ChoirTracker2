@@ -1,0 +1,12 @@
+<html>
+  <head>
+    <title>File Listing</title>
+  </head>
+  <body>
+    <h1><%= @pwd %>:</h1>
+    <ul>
+      <% for file in @files %>
+        <li><%= file -%></li>
+	<% end -%>
+  </body>
+</html>
